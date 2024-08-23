@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(./imgs/paper_tear_only_bg.f44efaa060da5d0a8ee4c4561195a14a.png);
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 19.5%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.main {
+    position: relative;
+    margin-top: 9.5%;
+    margin-left: 8.0%;
+    width: 80.0%;
+    height: auto;
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+    min-width: 12.5%;
+    height: auto;
+    right: 53.30%;
+    bottom: 5.0%;
+    cursor: pointer
+}
+
+.about {
+    cursor: pointer
+}
+
+.img-container:has(.about){
+    position: relative;
+    min-width: 12.5%;
+    height: auto;
+    right: 8.00%;
+    bottom: 15.00%;
+}
+
+.joker {
+    position: fixed;
+    z-index: -1;
+    min-width: 80%;
+    top: 17%;
+    left: 8%;
+}
+
+.spiral {
+    position: fixed;
+    z-index: -2;
+}
+
+.menu-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(./imgsMenu/menu-page-background.1a9fae3c635aa820f8d110dcf05ba500.png);
+}
+
+.menu-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.dish-one {
+    position: fixed;
+    top: 17vw;
+    left: 5.5vw;
+    width: 30vw;
+    cursor: pointer;
+}
+
+.dish-two {
+    position: fixed;
+    top: 26vw;
+    left: 29vw;
+    width: 27.8vw;
+    cursor: pointer;
+}
+
+.dish-three {
+    position: fixed;
+    top: 36.45vw;
+    left: 6.65vw;
+    width: 29.9vw;
+    cursor: pointer;
+}
+
+.dish-four {
+    position: fixed;
+    left: 65.4vw;
+    top: 15vw;
+    width: 30.8vw;
+    cursor: pointer;
+}
+
+.dish-five {
+    position: fixed;
+    top: 25.4vw;
+    left: 62vw;
+    width: 26.7vw;
+    cursor: pointer;
+}
+
+.dish-six {
+    position: fixed;
+    top: 33vw;
+    left: 65vw;
+    width: 27.6vw;
+    cursor: pointer;
+}
+
+.about-background {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-image: url(./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png);
+    background-size: cover;
+    padding-top: 143.385%;
+}
